@@ -1,0 +1,2 @@
+# Put proxies in here
+# If you dont you will get ratelimited instantly
