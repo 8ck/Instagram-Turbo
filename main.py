@@ -1,4 +1,4 @@
-# Turbo made by sim#1337
+
 
 import asyncio, aiohttp, requests, json, json, random, os
 from colorama import Fore, Back, Style
@@ -9,7 +9,7 @@ INSTAGRAM_EDIT_PROFILE = "https://www.instagram.com/accounts/edit/"
 SESSION = requests.session()
 Tries = 0
 
-with open('config.json', 'r') as f:
+with open('/Users/imsemihk/Desktop/Instagram-Turbo/config.json', 'r') as f:
     config = json.load(f)
 
 def GetCSRF():
